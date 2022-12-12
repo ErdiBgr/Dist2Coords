@@ -1,5 +1,4 @@
 <?php
-
 function dist2coords($lat1, $lon1, $lat2, $lon2) {
     $R = 6371; //Earth radius (km)
     $dLat = deg2rad($lat2 - $lat1);
